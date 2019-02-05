@@ -32,6 +32,7 @@ for q, a in js_data:
 
 
 ans.append({'q' : last_q, 'a': last_a})
+ans = ans[2:]
 
 
 with open('data.json', 'w', encoding='utf-16') as outfile:
