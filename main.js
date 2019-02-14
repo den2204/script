@@ -1,6 +1,6 @@
 var runExchange = function() {
     // settings
-    var answersUrl = 'https://github.com/den2204/script/blob/master/data.json';
+    var answersUrl = 'https://raw.githubusercontent.com/den2204/script/master/data.json';
     //var answersUrl = 'https://raw.githubusercontent.com/alryaz/moodle-exchange/master/answers/' + window.location.hostname + '.json';
     
     var skipNumber = 0;
